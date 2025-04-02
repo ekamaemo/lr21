@@ -103,6 +103,9 @@ public class SetCollection {
             this.data = newData;
             this.size--;
         }
+        else {
+            System.out.printf("Нет такого элемента в множестве: %d%n", value);
+        }
     }
 
     public boolean Contains(int value){
